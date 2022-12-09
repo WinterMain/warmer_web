@@ -1197,10 +1197,11 @@ section .social_icons {
 }
 
 .slide_banner1 .banner-img {
-    left: 78px;
+    left: 72px;
     top: 37px;
     height: 438px;
     position: absolute;
+    width: 730px;
 }
 
 .slide_pc_img {
