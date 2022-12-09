@@ -1,0 +1,163 @@
+{
+    "mouseover": [
+        {
+            "selector": ".s-content a[href^='http']",
+            "text": ["Would you like to see <span style=\"color:#0099cc;\">{text}</span>?"]
+        },
+        {
+            "selector": ".site-logo",
+            "text": ["Click to go to the home page, if you want to go back to the previous page, you can use the back function of the browser"]
+        },
+        {
+            "selector": "#tor_show",
+            "text": ["Is it troublesome to turn pages, click to display the table of contents of this article"]
+        },
+        {
+            "selector": "#comments,.fui-chat",
+            "text": ["Do you want to comment on something?"]
+        },
+        {
+            "selector": "#night_mode",
+            "text": ["Take care of your eyes late at night"]
+        },
+        {
+            "selector": "#qrcode",
+            "text": ["You can continue watching with just one scan on your phone, it's very convenient"]
+        },
+        {
+            "selector": ".comments",
+            "text": ["What do you want to complain about?"]
+        },
+        {
+            "selector": ".go-top",
+            "text": ["Go back to the beginning"]
+        },
+        {
+            "selector": "#author",
+            "text": ["What should I call you"]
+        },
+        {
+            "selector": "#mail",
+            "text": ["Leave your email address, or you will be a person without avatar"]
+        },
+        {
+            "selector": "#url",
+            "text": ["Where is your home, so that I can visit it"]
+        },
+        {
+            "selector": "#nameInput",
+            "text": ["What should I call you"]
+        },
+        {
+            "selector": "#emailInput",
+            "text": ["Leave your email address, or you will be a person without avatar"]
+        },
+        {
+            "selector": "#messageInput",
+            "text": ["Fill in carefully, spam comments are prohibited"]
+        },
+        {
+            "selector": ".OwO-logo",
+            "text": ["Do you want to insert an emoticon?"]
+        },
+        {
+            "selector": "#csubmit",
+            "text": ["Do you want to [submit]^(Commit), happy~"]
+        },
+        {
+            "selector": ".ImageBox",
+            "text": ["Click the picture to enlarge it"]
+        },
+        {
+            "selector": "input[name=s]",
+            "text": ["Can't find what you want to see? Search and have a look"]
+        },
+        {
+            "selector": ".previous",
+            "text": ["Go to the previous page to have a look"]
+        },
+        {
+            "selector": ".next",
+            "text": ["Go to the next page to see"]
+        },
+        {
+            "selector": ".c-player a.play-icon",
+            "text": ["Want to listen to some music?"]
+        },
+        {
+            "selector": ".c-player div.time",
+            "text": ["Here you can adjust <span style=\"color:#0099cc;\">play progress</span>"]
+        },
+        {
+            "selector": ".c-player div.volume",
+            "text": ["Here you can adjust <span style=\"color:#0099cc;\">volume</span>"]
+        },
+        {
+            "selector": ".c-player div.list-button",
+            "text": ["<span style=\"color:#0099cc;\">What's in the playlist</span>"]
+        },
+        {
+            "selector": ".c-player div.lyric-button",
+            "text": ["If you have <span style=\"color:#0099cc;\">lyrics</span>, you can sing along"]
+        },
+        {
+            "selector": ".waifu #live2d",
+            "text": ["What are you doing, take your hands away", "The mouse... the mouse is in the wrong place!"]
+        }
+    ],
+    "click": [
+        {
+            "selector": ".waifu #live2d",
+            "text": ["Yes... I touched it by accident", "What is Lolicon", "Did you see my bear", "I will call the police if I touch it again!⌇●﹏● ⌇", "110, there is a pervert here who has been touching me (ó﹏ò｡)"]
+        }
+    ],"seasons": [
+        {
+            "date": "01/01",
+            "text": "<span style=\"color:#0099cc;\">New Year's Day</span>, the new year has started again, this year is {year}~"
+        },
+        {
+            "date": "02/14",
+            "text": "It's another year of <span style=\"color:#0099cc;\">Valentine's Day</span>, did you find someone in {year}~"
+        },
+        {
+            "date": "03/08",
+            "text": "Today is <span style=\"color:#0099cc;\">Women's Day</span>!"
+        },
+        {
+            "date": "03/12",
+            "text": "Today is <span style=\"color:#0099cc;\">Arbor Day</span>, we must protect the environment"
+        },
+        {
+            "date": "04/01",
+            "text": "Quietly tell you a secret~<span style=\"background-color:#34495e;\">Today is April Fool's Day, don't be fooled~</span>"
+        },
+        {
+            "date": "05/01",
+            "text": "Today is <span style=\"color:#0099cc;\">May 1 Labor Day</span>, have you planned where to go during the holiday~"
+        },
+        {
+            "date": "06/01",
+            "text": "<span style=\"color:#0099cc;\">Children's Day</span> is here, the happy time is always short, it would be great if I never grow up..."
+        },
+        {
+            "date": "09/03",
+            "text": "<span style=\"color:#0099cc;\">The Victory Day of the Chinese People's War of Resistance Against Japanese Aggression</span>, remembering history, remembering the martyrs, cherishing peace, and creating the future."
+        },
+        {
+            "date": "09/10",
+            "text": "<span style=\"color:#0099cc;\">Teacher's Day</span>, you should say hello to the teacher at school~"
+        },
+        {
+            "date": "10/01",
+            "text": "<span style=\"color:#0099cc;\">National Day</span>, New China has been established for 69 years"
+        },
+        {
+            "date": "11/05-11/12",
+            "text": "Who did you spend this year's <span style=\"color:#0099cc;\">Double Eleven</span> with~"
+        },
+        {
+            "date": "12/20-12/31",
+            "text": "These days are <span style=\"color:#0099cc;\">Christmas</span>, the owner must be shopping again~"
+        }
+    ]
+}

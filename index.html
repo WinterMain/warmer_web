@@ -1,0 +1,124 @@
+---
+title: "Warmer"
+layout: default
+pagination: true
+enabled: true
+---
+
+<header class="header header_style1" style="height: 0;padding: 0;overflow: hidden;">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-9 col-lg-10">
+            <div class="logo"><a href="index.html"><img height="54" src="{{site.logo}}" alt="#"></a></div>
+            <div class="main_menu float-right">
+            </div>
+         </div>
+         <div class="col-md-3 col-lg-2">
+            <!-- <div class="right_bt"><a class="bt_main" href="index.html">Get Support</a> </div> -->
+         </div>
+      </div>
+   </div>
+</header>
+<section id="banner_parallax" class="slide_banner1"
+   style="background-image: url({{site.baseurl}}/assets/images/slide1.png);">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="full">
+               <div class="slide_cont">
+                  <h2 style="margin-top: 100px;">Warmer</h2>
+                  <p>A simple and beautiful personalized new tab page</p>
+                  <div class="full slide_bt" style="margin-top: 50px;">
+                     <a id="btn-edge" style="display: none;" class="white_bt bt_main" target="_blank"
+                        href="https://microsoftedge.microsoft.com/addons/detail/Warmer-new-tab-page/kchjhdeoahofkoeedfgkjldbhmiegpok">
+                        <span>Download for</span>
+                        <img height="30" width="30" class="explorer-logo" src="{{site.baseurl}}/assets/images/edge.svg">
+                     </a>
+                     <a id="btn-chrome" style="display: none;" class="white_bt bt_main" target="_blank"
+                        href="https://chrome.google.com/webstore/detail/Warmer-new-tab-page/ebidcofojhlkgmmcgmkmfkblcoakffhd">
+                        <span>Download for</span>
+                        <img height="30" width="30" class="explorer-logo"
+                           src="{{site.baseurl}}/assets/images/chrome.svg">
+                     </a>
+                     <a id="btn-firefox" style="display: none;" class="white_bt bt_main" target="_blank"
+                        href="https://addons.mozilla.org/firefox/addon/Warmer-new-tab-page/">
+                        <span>Download for</span>
+                        <img height="30" width="30" class="explorer-logo"
+                           src="{{site.baseurl}}/assets/images/firefox.svg">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="full">
+               <div class="slide_pc_img wow fadeInRight" data-wow-delay="1s" data-wow-duration="2s"
+                  style="visibility: visible; animation-duration: 2s; animation-delay: 1s; animation-name: fadeInRight;">
+                  <img class="banner-img" src="{{site.baseurl}}/assets/images/banner.png">
+                  <img src="{{site.baseurl}}/assets/images/pc-banner.png" alt="#">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="layout_padding what-is-Warmer">
+   <div class="container">
+      <div class="cont_theme_blog">
+         <h3>What is Warmer?</h3>
+         <iframe width="640" height="400" src="https://www.youtube.com/embed/HiH85976QEk" title="Warmer - New tab page"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+      </div>
+   </div>
+</section>
+
+<div class="s-content">
+   <div class="masonry-wrap">
+      <div class="masonry">
+         <div class="grid-sizer"></div>
+         {% for post in paginator.posts %}
+         {% include article-index.html %}
+         {% endfor %}
+      </div>
+   </div>
+
+   {% if paginator.total_pages > 1 %}
+   <div class="row">
+      <div class="column large-full">
+         <nav class="pgn">
+            <ul>
+               {% if paginator.previous_page %}
+               <li><a class="pgn__prev"
+                     href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>
+               </li>
+               {% else %}
+               <li><span class="pgn__prev disabled">Prev</span></li>
+               {% endif %}
+
+               {% for page in (1..paginator.total_pages) %}
+               {% if page == paginator.page %}
+               <li><span class="pgn__num current">{{page}}</span></li>
+               {% elsif page == 1 %}
+               <li><a class="pgn__num" href="{{site.baseurl}}">{{ page }}</a></li>
+               {% else %}
+               <li><a class="pgn__num"
+                     href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{
+                     page }}</a></li>
+               {% endif %}
+               {% endfor %}
+
+               {% if paginator.next_page %}
+               <li><a class="pgn__next"
+                     href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+               {% else %}
+               <li><span class="pgn__next disabled">Next</span></li>
+               {% endif %}
+            </ul>
+         </nav>
+      </div>
+   </div>
+   {% endif %}
+</div>
