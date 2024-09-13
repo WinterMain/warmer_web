@@ -3,9 +3,9 @@ name: 'Warmer'
 description: 'A simple and beautiful personalized new tab page'
 logo: 'assets/images/logo.png?t=2'
 favicon: 'assets/images/favicon.ico?t=2'
-baseurl: '/warmer_web'
+baseurl: '/'
 disqus: 'demowebsite'
-email: 'aiyld@hotmail.com'
+email: 'winter.cc@qq.com'
 mailchimp-list: 'https://www.samyoc.com/yoc/message?action=subscribe'
 
 include: ["_pages"]
@@ -27,7 +27,7 @@ authors:
       site:           https://www.yanglidong.com
       avatar:         assets/images/logo.png
       bio:            ""
-      email:          aiyld@hotmail.com
+      email:          winter.cc@qq.com
 
 socials:
   samyoc:
@@ -41,7 +41,7 @@ socials:
     url: "https://weibo.com/myyld"
   github:
     name: "GitHub"
-    url: "https://github.com/aiyld"
+    url: "https://github.com/WinterMain"
   twitter:
     name: "Twitter"
     url: "https://twitter.com/yang_ld"
